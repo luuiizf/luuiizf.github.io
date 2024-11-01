@@ -1,0 +1,66 @@
+<link rel="stylesheet" href="style.css">
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="images/portfolio.ico" type="image/x-icon">
+    <title>Contato | Portfólio</title>
+</head>
+<body>
+    <!-- Navbar Reutilizada -->
+    <nav>
+        <div class="conteudonav">
+            <div class="logo"><a href="index.html">Luuiiz</a></div>
+            <label for="check" class="checkbox">
+                <i class="ri-menu-line"></i> 
+            </label>
+            <input type="checkbox" name="check" id="check">
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="about.html">Sobre</a></li>
+                <li><a href="portfolio.html">Portfólio</a></li>
+                <li><a href="contact.html">Contato</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Seção de Contato -->
+    <section class="contact-section">
+        <h1 class="contact-title">Entre em Contato 🤝</h1>
+        <p class="contact-intro">Vamos conversar! Sinta-se à vontade para me enviar uma mensagem nas redes sociais ou preencher o formulário abaixo.</p>
+
+        <!-- Redes Sociais -->
+        <div class="social-media">
+            <a href="https://www.instagram.com/luiz.fnd" target="_blank" class="social-link">
+                <i class="ri-instagram-line"></i> Instagram
+            </a>
+            <a href="https://www.linkedin.com/in/luiz-fernando-ab3bb2291/" target="_blank" class="social-link">
+                <i class="ri-linkedin-box-line"></i> LinkedIn
+            </a>
+            <a href="#" class="social-link">
+                <i class="ri-discord-line"></i> Discord: luuiiz
+            </a>
+        </div>
+
+        <!-- Formulário de Contato -->
+        <div class="contact-form">
+            <form action="https://formspree.io/f/moqzrlyz" method="POST">
+                <label for="name">Nome</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Mensagem</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+
+                <button type="submit" class="submit-btn">Enviar Mensagem</button>
+            </form>
+        </div>
+    </section>
+</body>
+</html>
